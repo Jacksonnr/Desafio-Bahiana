@@ -1,0 +1,31 @@
+# Diretórios e arquivos da IDE
+.idea/
+*.iml
+
+# Compilação Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos do sistema
+*.log
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+application-local.properties
+
+# Arquivos temporários do sistema operacional ou editores
+*.swp
+*.swo
+*.bak
+
+# Pastas temporárias
+tmp/
+temp/
+
+# VS Code
+.vscode/
