@@ -6,6 +6,7 @@ API RESTful para cadastro e gerenciamento de alunos, desenvolvida com Spring Boo
 
 ## Índice
 
+
 - [Descrição](#descrição)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
@@ -17,6 +18,7 @@ API RESTful para cadastro e gerenciamento de alunos, desenvolvida com Spring Boo
 - [Swagger / Documentação](#swagger--documentação)
 - [Contribuição](#contribuição)
 - [Contato](#contato)
+
 
 ---
 
@@ -128,7 +130,15 @@ spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
+Antes de rodar a aplicação, crie o banco de dados escola_db no PostgreSQL seguindo os passos abaixo:
 
+Acesse o terminal do PostgreSQL (psql):
+
+psql -U seu_usuario
+Crie o banco de dados:
+CREATE DATABASE escola_db;
+
+Se retornar CREATE DATABASE no terminal o banco foi criado com sucesso
 ---
 
 ## Swagger / Documentação
