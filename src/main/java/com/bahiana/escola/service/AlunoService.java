@@ -41,6 +41,6 @@ public class AlunoService {
 
     public void deletar(Long id) {
         Aluno aluno = buscarPorId(id);
-        alunoRepository.deleteById(aluno);
+        alunoRepository.deleteById(aluno.getId());
     }
 }

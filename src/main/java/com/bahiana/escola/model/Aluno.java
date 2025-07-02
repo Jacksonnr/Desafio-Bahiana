@@ -7,7 +7,8 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "alunos")
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Aluno {

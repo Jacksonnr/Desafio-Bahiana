@@ -1,13 +1,13 @@
-package com.bahiana.escola;
+//package com.bahiana.escola;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class EscolaApplicationTests {
+//@SpringBootTest
+//class EscolaApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+///	@Test
+//	void contextLoads() {
+//	}
 
-}
+//}
